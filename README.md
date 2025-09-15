@@ -25,7 +25,6 @@ jupyter notebook notebooks/treasury_yield_forecasting_regime_nn.ipynb
 ```
 
 ## Structure
-(abridged)
 ```
 ├── configs/ (base.yaml, features.yaml)
 ├── src/treasury_forecaster/
