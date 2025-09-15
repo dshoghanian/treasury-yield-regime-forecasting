@@ -1,0 +1,21 @@
+
+start_date: "2015-01-01"
+end_date: null
+frequency: "D"
+
+series:
+  - DGS10
+  - DGS2
+  - DGS30
+  - DGS3MO
+  - EFFR
+  - CPIAUCSL
+  - SP500
+  - VIXCLS
+  - T10Y2Y
+  - T10Y3M
+  - DCOILWTICO
+  - DEXUSEU
+  - DEXUSUK
+  - DEXJPUS
+  - TEDRATE

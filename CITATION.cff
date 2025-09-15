@@ -1,0 +1,12 @@
+
+cff-version: 1.2.0
+title: "Regime-Aware Neural Networks for 10Y U.S. Treasury Yield Forecasting"
+message: "If you use this repository, please cite it as below."
+type: software
+authors:
+  - family-names: Shoghanian
+    given-names: Dante
+version: "1.0.1"
+date-released: "2025-09-15"
+repository-code: "https://github.com/your-username/treasury-yield-regime-forecasting"
+license: MIT

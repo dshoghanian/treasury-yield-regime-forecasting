@@ -1,0 +1,30 @@
+
+seed: 42
+target: DGS10
+sequence_length: 10
+test_size: 0.15
+val_size: 0.15
+batch_size: 64
+epochs: 50
+learning_rate: 0.001
+
+# Model options: fnn, cnn, lstm, transformer
+model: lstm
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+
+regimes:
+  monetary_policy:
+    method: "thresholds"
+    series: "EFFR"
+    thresholds:
+      easing: -0.05
+      stable_low: 0.05
+      tightening: 0.05
+    lookback_days: 60
+
+targets:
+  horizons: [1, 5, 10, 20]
